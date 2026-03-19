@@ -1,0 +1,28 @@
+.hanken-grotesk {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Hanken Grotesk', Arial, Helvetica, sans-serif;
+    width: 40%;
+    margin: 50px auto;
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+}
+
+h1, h2 {
+    color: #f5c2e7;
+}
+
+h3 {
+    font-family: Gentium, Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #a6adc8;
+}
+
+a {
+    color:#cba6f7;
+}
