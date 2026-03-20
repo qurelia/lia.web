@@ -5,12 +5,24 @@
   font-style: normal;
 }
 
+.cascadia-code {
+  font-family: "Cascadia Code", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* main */
 body {
     font-family: 'Hanken Grotesk', Arial, Helvetica, sans-serif;
     width: 40%;
-    margin: 50px auto;
+    margin: 10px auto;
     background-color: #1e1e2e;
     color: #cdd6f4;
+}
+
+main {
+    margin: 30px auto;
 }
 
 h1, h2 {
@@ -25,4 +37,27 @@ h3 {
 
 a {
     color:#cba6f7;
+}
+
+/* navbar */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Cascadia Code';
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 0 25px 0 0;
+}
+
+.navbar ul li a.active {
+    text-decoration-color: #a6adc8;
+    text-decoration-thickness: 2px;
+}
+
+.navbar ul li a:hover {
+    text-decoration-color: #a6adc8;
 }
