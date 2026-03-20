@@ -40,7 +40,7 @@ a {
 }
 
 /* navbar */
-.navbar ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -48,16 +48,16 @@ a {
     font-family: 'Cascadia Code';
 }
 
-.navbar ul li a {
+nav ul li a {
     display: block;
     padding: 0 25px 0 0;
 }
 
-.navbar ul li a.active {
+nav ul li a.active {
     text-decoration-color: #a6adc8;
     text-decoration-thickness: 2px;
 }
 
-.navbar ul li a:hover {
+nav ul li a:hover {
     text-decoration-color: #a6adc8;
 }
