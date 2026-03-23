@@ -15,7 +15,7 @@
 /* main */
 body {
     font-family: 'Hanken Grotesk', Arial, Helvetica, sans-serif;
-    width: 40%;
+    width: 90%;
     margin: 10px auto;
     background-color: #1e1e2e;
     color: #cdd6f4;
@@ -37,6 +37,20 @@ h3 {
 
 a {
     color:#cba6f7;
+}
+
+/* scale width according to screen */
+
+@media (min-width: 720px) {
+  body {
+    width: 55vw;
+    min-width: 648px;
+  }
+}
+@media (min-width: 1800px) {
+  body {
+    width: 45vw;
+  }
 }
 
 /* navbar */
