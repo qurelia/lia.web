@@ -39,6 +39,16 @@ a {
     color:#cba6f7;
 }
 
+/* name change on hover */
+
+.name:after {
+    content: "qurelia";
+}
+
+.name:hover:after {
+    content: "janice";
+}
+
 /* scale width according to screen */
 
 @media (min-width: 720px) {
